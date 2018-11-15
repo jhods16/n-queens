@@ -207,7 +207,6 @@
       var rows = this.rows();
       for (var i = (1-size); i < rows.length; i++) {
         if (this.hasMajorDiagonalConflictAt(i)) {
-          debugger;
           return true;
         } 
       }
